@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+/* CSS RESET  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem;
+    height: 80vh;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    background-image: linear-gradient(to left, blue, rgb(22, 137, 190));
+}
+
+.left {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left img {
+    width: 12rem;
+    height: 8rem;
+}
+
+.left h2 {
+    font-size: 2rem;
+}
+
+.left p {
+    width: 15vw;
+}
+
+.right form {
+    display: grid;
+    width: 60vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1.5rem;
+    justify-items: center;
+}
+
+.right {
+    background-color: #EAF0F1;
+    height: 64vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.right h2 {
+    line-height: 2rem;
+    font-size: 2.5rem;
+    color: rgb(43, 43, 43);
+}
+
+.form-field {
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(224, 224, 224);
+    width: 22vw;
+    box-shadow: 2px 2px 2px inset grey;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.right button {
+    display: block;
+    align-self: center;
+    background-color: blue;
+    color: whitesmoke;
+}
